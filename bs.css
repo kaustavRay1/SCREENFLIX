@@ -1,5 +1,5 @@
 .card{
-align-item:center;
+align-item:justify;
 }
 .container{
 width:min(100%,950px);
