@@ -1,9 +1,4 @@
-.card{
-align-item:justify;
-}
-.container{
-width:min(100%,950px);
-}
+
 .cards-wrapper{
     display: flex;
 }
