@@ -1,3 +1,6 @@
+.card{
+align-item:center;
+}
 .container{
 width:min(100%,950px);
 }
