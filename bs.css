@@ -1,6 +1,7 @@
 
 .cards-wrapper{
     display: flex;
+    margin: auto;
 }
 .card-title{
     color: gainsboro;
