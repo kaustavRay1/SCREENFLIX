@@ -1,11 +1,9 @@
 
 .cards-wrapper{
     display: flex;
-}
-.card-wrapper{
-        margin: 0 auto; /* Added */
+    margin: 0 auto; /* Added */
         float: none; /* Added */
-        margin-bottom: 10px; /* Added */
+        margin-bottom: 10px;
 }
 .card-title{
     color: gainsboro;
