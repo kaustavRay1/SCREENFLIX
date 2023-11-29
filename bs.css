@@ -1,10 +1,10 @@
 .cards-wrapper{
      margin: 0 auto; /* Added */
         float: none; /* Added */
-        margin-bottom: 20px; /*Added*/
+        margin-bottom: 10px; /*Added*/
 }
 .cards-wrapper{
-    display: flex;
+    display:;
 }
 
 .card-title{
