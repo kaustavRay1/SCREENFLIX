@@ -1,12 +1,12 @@
-
-.cards-wrapper{
-    display: flex;
-}
 .cards-wrapper{
      margin: 0 auto; /* Added */
         float: none; /* Added */
         margin-bottom: 10px;
 }
+.cards-wrapper{
+    display: flex;
+}
+
 .card-title{
     color: gainsboro;
     font: weight 200;
