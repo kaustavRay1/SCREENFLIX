@@ -19,13 +19,13 @@ img {
 .container {
   width: 100%;
   width: 900px;
-  height: 400px;
+  height: 500px;
   display: flex;
   gap: 10px;
   margin-inline: 50px;
 }
 
-.card {
+.card1 {
   min-width: 70px;
   height: 100%;
   border-radius: 30px;
@@ -40,11 +40,11 @@ img {
 
   --transition-timing: 0.25s;
 }
-.card.active {
+.card1.active {
   flex-grow: 100;
 }
 
-.card > .background {
+.card1 > .background {
   position: absolute;
   inset: 0;
   object-fit: cover;
@@ -53,11 +53,11 @@ img {
   z-index: -1;
   transition: var(--transition-timing) ease;
 }
-.card.active > .background {
+.card1.active > .background {
   filter: brightness(1) grayscale(0);
 }
 
-.card > .card-content {
+.card1 > .card1-content {
   display: flex;
   align-items: center;
   position: absolute;
@@ -68,16 +68,16 @@ img {
   transition: var(--transition-timing);
   z-index: 10;
 }
-.card.active > .card-content {
+.card1.active > .card-content {
   inset: 20px;
   top: auto;
 }
 
-.card-content * {
+.card1-content * {
   transition: var(--transition-timing);
 }
 
-.card-content > .profile-image {
+.card1-content > .profile-image {
   min-width: 50px;
   max-width: 50px;
   height: 50px;
@@ -88,29 +88,29 @@ img {
   border-radius: 50%;
   overflow: hidden;
 }
-.card.active .profile-image {
+.card1.active .profile-image {
   border: 1px solid rgb(110, 252, 205);
 }
 .profile-image > svg {
   stroke: #fefefe;
 }
-.card.active .profile-image > svg {
+.card1.active .profile-image > svg {
   stroke: rgb(110, 252, 205);
 }
 
-.card-content > .title {
+.card1-content > .title {
   white-space: pre;
   margin-left: 10px;
   translate: 0 100%;
   opacity: 0;
   transition-delay: 0.3s;
 }
-.card.active .title {
+.card1.active .title {
   opacity: 1;
   translate: 0 0;
 }
 
-.card > .backdrop {
+.card1 > .backdrop {
   position: absolute;
   left: 0;
   right: 0;
