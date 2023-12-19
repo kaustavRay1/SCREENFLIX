@@ -5,8 +5,8 @@ cardsContainer.addEventListener("click", (e) => {
 
   if (!target) return;
 
-  cardsContainer.querySelectorAll(".card").forEach((card1) => {
-    card1.classList.remove("active");
+  cardsContainer.querySelectorAll(".card1").forEach((card1) => {
+    card.classList.remove("active");
   });
 
   target.classList.add("active");
