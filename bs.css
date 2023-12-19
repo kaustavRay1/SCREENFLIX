@@ -68,7 +68,7 @@ img {
   transition: var(--transition-timing);
   z-index: 10;
 }
-.card1.active > .card-content {
+.card1.active > .card1-content {
   inset: 20px;
   top: auto;
 }
@@ -176,7 +176,7 @@ img {
     transform: scale(0);
   }
 }
-.cards-wrapper{
+.cards-wrapper {
    display:flex;
 }
 .card{
