@@ -8,15 +8,7 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: Inter, sans-serif;
-  height: 100vh;
-  color: white;
-  background-color: #e9e9f0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 img {
   width: 100%;
