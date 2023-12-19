@@ -4,10 +4,12 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <link rel="stylesheet" type="text/CSS" href="bs.css">
+
 <link rel="icon" type="image/x-icon" href="download.ico">
     <title>SCREENFLIX</title>
 
@@ -132,32 +134,102 @@
       </nav>
     </head>
       <body style="background-color: black;color: aliceblue;">
-      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-        <div class="carousel-indicators" >
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <div class="container">
+      <div class="card active">
+        <img class="background" src="./assets/spider-man 01.jpeg" alt="">
+
+        <div class="card-content">
+          <div class="profile-image">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gamepad-2">
+              <line x1="6" x2="10" y1="11" y2="11" />
+              <line x1="8" x2="8" y1="9" y2="13" />
+              <line x1="15" x2="15.01" y1="12" y2="12" />
+              <line x1="18" x2="18.01" y1="10" y2="10" />
+              <path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z" />
+            </svg>
+          </div>
+
+          <h3 class="title">Spider-Man PS5</h3>
         </div>
-        <div class="carousel-inner" style="height: 600px;">
-          <div class="carousel-item active" data-bs-interval="10000">
-            <img src="pic1.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <img src="pic2.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="pic3.jpeg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="backdrop"></div>
       </div>
+
+      <div class="card">
+        <img class="background" src="./assets/god-of-war 01.jpg" alt="">
+
+        <div class="card-content">
+          <div class="profile-image">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gamepad-2">
+              <line x1="6" x2="10" y1="11" y2="11" />
+              <line x1="8" x2="8" y1="9" y2="13" />
+              <line x1="15" x2="15.01" y1="12" y2="12" />
+              <line x1="18" x2="18.01" y1="10" y2="10" />
+              <path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z" />
+            </svg>
+          </div>
+
+          <h3 class="title">God Of War</h3>
+        </div>
+        <div class="backdrop"></div>
+      </div>
+
+      <div class="card">
+        <img class="background" src="./assets/baldurs-gate-3 01.jpg" alt="">
+
+        <div class="card-content">
+          <div class="profile-image">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gamepad-2">
+              <line x1="6" x2="10" y1="11" y2="11" />
+              <line x1="8" x2="8" y1="9" y2="13" />
+              <line x1="15" x2="15.01" y1="12" y2="12" />
+              <line x1="18" x2="18.01" y1="10" y2="10" />
+              <path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z" />
+            </svg>
+          </div>
+
+          <h3 class="title">Baldur's Gate 3</h3>
+        </div>
+        <div class="backdrop"></div>
+      </div>
+
+      <div class="card">
+        <img class="background" src="./assets/elden-ring 01.jpg" alt="">
+
+        <div class="card-content">
+          <div class="profile-image">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gamepad-2">
+              <line x1="6" x2="10" y1="11" y2="11" />
+              <line x1="8" x2="8" y1="9" y2="13" />
+              <line x1="15" x2="15.01" y1="12" y2="12" />
+              <line x1="18" x2="18.01" y1="10" y2="10" />
+              <path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z" />
+            </svg>
+          </div>
+
+          <h3 class="title">Elden Ring</h3>
+        </div>
+        <div class="backdrop"></div>
+      </div>
+
+      <div class="card">
+        <img class="background" src="./assets/The-Last-Of-Us 01.jpg" alt="">
+
+        <div class="card-content">
+          <div class="profile-image">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gamepad-2">
+              <line x1="6" x2="10" y1="11" y2="11" />
+              <line x1="8" x2="8" y1="9" y2="13" />
+              <line x1="15" x2="15.01" y1="12" y2="12" />
+              <line x1="18" x2="18.01" y1="10" y2="10" />
+              <path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z" />
+            </svg>
+          </div>
+
+          <h3 class="title">The Last of Us</h3>
+        </div>
+        <div class="backdrop"></div>
+      </div>
+    </div>
 <h4>Latest Release</h4>
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner" align="center">
