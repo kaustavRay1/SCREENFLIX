@@ -41,7 +41,7 @@ img {
   --transition-timing: 0.25s;
 }
 .card.active {
-  flex-grow: 1000;
+  flex-grow: 1000px;
 }
 
 .card > .background {
