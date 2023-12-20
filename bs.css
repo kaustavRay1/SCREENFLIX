@@ -8,11 +8,7 @@
   box-sizing: border-box;
 }
 
-.card-body {
-    min-height: 370px;
-    min-width: 200px;
-    margin-right: 5px;
-}
+
 }
 
 img {
