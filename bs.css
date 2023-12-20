@@ -8,7 +8,9 @@
   box-sizing: border-box;
 }
 
-
+.container-fluid py-2{
+  display:flex;
+}
 
 img {
   width: 100%;
