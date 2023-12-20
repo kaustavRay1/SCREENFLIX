@@ -202,6 +202,8 @@ width: 200px;
 .card{
    background-color: gray;
    border-radius: 15px;
+  min-width:100px;
+  min-height:200px;
     transition: all 0.5s ease-in;
 }
 .cast-img{
