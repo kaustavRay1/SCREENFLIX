@@ -16,7 +16,7 @@ img {
 
 .container {
   width: 100%;
-  width: 1200px;
+  width: 1000px;
   height: 500px;
   display: flex;
   gap: 10px;
