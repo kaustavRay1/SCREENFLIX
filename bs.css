@@ -16,15 +16,15 @@ img {
 
 .container {
   width: 100%;
-  width: 1000px;
-  height: 500px;
+  width: 700vh;
+  height: 500vh;
   display: flex;
   gap: 10px;
   margin-inline: 50px;
 }
 
 .card1 {
-  min-width: 70px;
+  min-width: 70vh;
   height: 100%;
   border-radius: 30px;
   overflow: hidden;
