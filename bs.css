@@ -39,7 +39,7 @@ img {
   --transition-timing: 0.25s;
 }
 .card1.active {
-  flex-grow: 1000vh;
+  flex-grow: 100vh;
 }
 
 .card1 > .background {
