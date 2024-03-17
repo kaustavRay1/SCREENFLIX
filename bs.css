@@ -16,15 +16,15 @@ img {
 
 .container {
   width: 100%;
-  width: 700vh;
-  height: 500vh;
+  width: 1200px;
+  height: 500px;
   display: flex;
   gap: 10px;
   margin-inline: 50px;
 }
 
 .card1 {
-  min-width: 70vh;
+  min-width: 70px;
   height: 100%;
   border-radius: 30px;
   overflow: hidden;
@@ -39,7 +39,7 @@ img {
   --transition-timing: 0.25s;
 }
 .card1.active {
-  flex-grow: 100vh;
+  flex-grow: 1000;
 }
 
 .card1 > .background {
