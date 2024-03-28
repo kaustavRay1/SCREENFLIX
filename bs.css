@@ -177,12 +177,12 @@ img {
         float: none; /* Added */
         margin-bottom: 10px; /* Added */
 }
-.card {
+.card-body {
   box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
   transition: all .5s ease; /* back to normal */
 }
 
-.card:hover {
+.card-body:hover {
   box-shadow: 8px 28px 50px rgba(39,44,49,.07), 1px 6px 12px rgba(39,44,49,.04);
   transition: all .4s ease; /* zoom in */
 }
