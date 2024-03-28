@@ -177,8 +177,9 @@ img {
         float: none; /* Added */
         margin-bottom: 10px; /* Added */
 }
-card:hover {
+.card:hover {
   background:"yellow";
+  transform: translate3D(0,-1px,0) scale(1.03);
 }
 .card-title{
     color: gainsboro;
